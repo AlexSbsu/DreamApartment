@@ -8,5 +8,7 @@ namespace DreamDepartment
 {
     class Greeting
     {
+        public void GreetingShow()
+        { }
     }
 }

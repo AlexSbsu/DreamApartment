@@ -8,5 +8,12 @@ namespace DreamDepartment
 {
     class Doors
     {
+        public void ListDoorsTypes()
+        {
+            Console.WriteLine("Here can be you Doors");
+
+            
+        }
+
     }
 }

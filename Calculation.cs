@@ -8,5 +8,18 @@ namespace DreamDepartment
 {
     class Calculation
     {
+        public double CalcWallDecoration(int index, int amount)
+        {
+            double result=1;
+
+            return result;
+        }
+        public double CalcDoors(int index, int amount)
+        {
+            double result=2;
+
+
+            return result;
+        }
     }
 }

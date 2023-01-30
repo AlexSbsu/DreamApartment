@@ -8,5 +8,12 @@ namespace DreamDepartment
 {
     class WallDecorationTypes
     {
+        public void ListWallDecorationTypes()
+        {
+            Console.WriteLine("Here can be you WallDecorationTypes");
+
+            
+        }
+
     }
 }
