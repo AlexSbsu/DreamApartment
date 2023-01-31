@@ -108,7 +108,8 @@ namespace DreamDepartment
         }
 
         public void ShowDefault()
-        {            
+        {
+            Console.WriteLine();
             Console.WriteLine("r Return to main menu");
             Console.WriteLine("q Exit");
         }
