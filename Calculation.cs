@@ -12,6 +12,8 @@ namespace DreamDepartment
         {
             double result=1;
 
+            result = index * amount;
+
             return result;
         }
         public double CalcDoors(int index, int amount)

@@ -8,10 +8,19 @@ namespace DreamDepartment
 {
     class WallDecorationTypes
     {
+
+        struct WallDT
+        {
+            string name = 1;
+            string cost = 2;
+        }
+        WallDT[] WallDT1 = new WallDT();
+
+
         public void ListWallDecorationTypes()
         {
-            Console.WriteLine("Here can be you WallDecorationTypes");
 
+            Console.WriteLine(WallDT1.name + " " + WallDT1.cost);
             
         }
 
