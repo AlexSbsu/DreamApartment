@@ -10,18 +10,11 @@ namespace DreamDepartment
     {
         public double CalcWallDecoration(int index, int amount)
         {
-            double result=1;
-
-            result = index * amount;
-
-            return result;
+            return Doors.door_array[index].cost * amount;
         }
         public double CalcDoors(int index, int amount)
-        {
-            double result=2;
-
-
-            return result;
+        {            
+            return Doors.door_array[index].cost * amount; ;
         }
     }
 }

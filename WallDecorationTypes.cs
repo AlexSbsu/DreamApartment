@@ -6,22 +6,35 @@ using System.Threading.Tasks;
 
 namespace DreamDepartment
 {
-    class WallDecorationTypes
+    static class WallDecorationTypes
     {
 
-        struct WallDT
+        public struct walldecortype_struct
         {
-            string name = 1;
-            string cost = 2;
+            public string name;
+            public double cost;
+            public walldecortype_struct(string namee, double costt)
+            {
+                name = namee;
+                cost = costt;
+            }
         }
-        WallDT[] WallDT1 = new WallDT();
 
+        static public walldecortype_struct[] walldectype_array =
+        {
+            new walldecortype_struct("name2",1),
+            new walldecortype_struct("name1",2)
+        };
 
-        public void ListWallDecorationTypes()
+        static public void ListWallDecorationTypes()
         {
 
-            Console.WriteLine(WallDT1.name + " " + WallDT1.cost);
-            
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine("index" + "Type" + "Cost");
+                Console.WriteLine(i + walldectype_array[i].name + walldectype_array[i].cost);
+            }
+
         }
 
     }

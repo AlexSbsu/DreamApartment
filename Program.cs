@@ -9,9 +9,7 @@ namespace DreamDepartment
             string select_item;
 
             Greeting greeting = new Greeting();
-            InteractMenu mainmenu = new InteractMenu();
-            WallDecorationTypes wallDecorationTypes = new WallDecorationTypes();
-            Doors doors = new Doors();
+            InteractMenu mainmenu = new InteractMenu();            
             Calculation calculation = new Calculation();
 
             greeting.GreetingShow();
@@ -27,12 +25,12 @@ namespace DreamDepartment
                     case (0):
                         mainmenu.ShowMainMenu();
                         break;
-                    case (1):                        
-                        wallDecorationTypes.ListWallDecorationTypes();
+                    case (1):
+                        WallDecorationTypes.ListWallDecorationTypes();                        
                         mainmenu.ShowDefault();
                         break;
-                    case (2):                        
-                        doors.ListDoorsTypes();
+                    case (2):
+                        Doors.ListDoorsTypes();                        
                         mainmenu.ShowDefault();
                         break;
                     case (3):
@@ -40,12 +38,12 @@ namespace DreamDepartment
                         mainmenu.ShowDefault();
                         break;
                     case (31):
-                        wallDecorationTypes.ListWallDecorationTypes();
+                        WallDecorationTypes.ListWallDecorationTypes();                        
                         mainmenu.ShowWallDecorationCalculationMenu();
                         mainmenu.ShowDefault();
                         break;
                     case (32):
-                        doors.ListDoorsTypes();
+                        Doors.ListDoorsTypes();                        
                         mainmenu.ShowDoorsCalculationMenu();
                         mainmenu.ShowDefault();
                         break;
