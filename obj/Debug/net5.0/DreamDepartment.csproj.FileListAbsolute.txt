@@ -14,3 +14,19 @@ D:\C#_Project\2023_BSU_Study\DreamDepartment\obj\Debug\net5.0\DreamDepartment.dl
 D:\C#_Project\2023_BSU_Study\DreamDepartment\obj\Debug\net5.0\ref\DreamDepartment.dll
 D:\C#_Project\2023_BSU_Study\DreamDepartment\obj\Debug\net5.0\DreamDepartment.pdb
 D:\C#_Project\2023_BSU_Study\DreamDepartment\obj\Debug\net5.0\DreamDepartment.genruntimeconfig.cache
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\bin\Debug\net5.0\DreamDepartment.exe
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\bin\Debug\net5.0\DreamDepartment.deps.json
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\bin\Debug\net5.0\DreamDepartment.runtimeconfig.json
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\bin\Debug\net5.0\DreamDepartment.runtimeconfig.dev.json
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\bin\Debug\net5.0\DreamDepartment.dll
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\bin\Debug\net5.0\DreamDepartment.pdb
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\DreamDepartment.csproj.AssemblyReference.cache
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\DreamDepartment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\DreamDepartment.AssemblyInfoInputs.cache
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\DreamDepartment.AssemblyInfo.cs
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\DreamDepartment.csproj.CoreCompileInputs.cache
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\DreamDepartment.dll
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\refint\DreamDepartment.dll
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\DreamDepartment.pdb
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\DreamDepartment.genruntimeconfig.cache
+D:\Андрей\45 BSU\02 ManageSoft\05 DreamApartment\10 MyDreamApp\obj\Debug\net5.0\ref\DreamDepartment.dll
