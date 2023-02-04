@@ -1,59 +1,74 @@
 ﻿using System;
-
-namespace DreamDepartment
+class Greeting
 {
-    class Program
+    public static void Hello()
     {
-        static void Main()
-        {
-            string select_item;
+        Console.WriteLine("Вас приветствует программа по расчету ремонта квартиры");
+        Console.WriteLine("Просим протестировать нашу программу и оценить ее возможности");
+        Console.WriteLine("Это первая версия программы, которая рассчитает вам стоимость окраски стены");
+        Console.WriteLine("                                                          ");
+    }
+    public static void Goodbye()
+    {
+        Console.WriteLine("Пришла пора прощаться мой дорогой друг");
+        Console.WriteLine("Будем рады снова вас увидеть на нашем сайте");
+        Console.WriteLine("О своих эмоциях просим написать на email: bsuit2209@gmail.com");
+    }
+}
 
-            Greeting greeting = new Greeting();
-            InteractMenu mainmenu = new InteractMenu();            
-            Calculation calculation = new Calculation();
+class InitialData
+{
+    public static double lengthWall;
+    public static double widthWall;
+    public static double height;
+    public static double dimensionWall;
 
-            greeting.GreetingShow();
-            mainmenu.ShowMainMenu();
+    public static double AreaWall()
+    {
 
-            for (; ; )
-            {                
-                select_item = Console.ReadLine();
-                mainmenu.get_menu_code(select_item);
-                Console.Clear();
-                switch (mainmenu.Mind)
-                {
-                    case (0):
-                        mainmenu.ShowMainMenu();
-                        break;
-                    case (1):
-                        WallDecorationTypes.ListWallDecorationTypes();                        
-                        mainmenu.ShowDefault();
-                        break;
-                    case (2):
-                        Doors.ListDoorsTypes();                        
-                        mainmenu.ShowDefault();
-                        break;
-                    case (3):
-                        mainmenu.ShowCalculationMenu();
-                        mainmenu.ShowDefault();
-                        break;
-                    case (31):
-                        WallDecorationTypes.ListWallDecorationTypes();                        
-                        mainmenu.ShowWallDecorationCalculationMenu();
-                        mainmenu.ShowDefault();
-                        break;
-                    case (32):
-                        Doors.ListDoorsTypes();                        
-                        mainmenu.ShowDoorsCalculationMenu();
-                        mainmenu.ShowDefault();
-                        break;
+        Console.Write("Введите ширину вашей комнаты по оси X в метрах: ");
+        lengthWall = Convert.ToDouble(Console.ReadLine());
 
-                    case (100):                        
-                        break;
-                }                
-                if (mainmenu.Mind == 100) break;
-            }    
-            
-        }
+        Console.Write("Введите длину вашей комнаты по оси Y в метрах: ");
+        widthWall = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Введите высоту вашей комнаты в метрах: ");
+        height = Convert.ToDouble(Console.ReadLine());
+
+        dimensionWall = (lengthWall + widthWall) * 2 * height;
+        Console.WriteLine("Площадь вашей стены в м2: " + InitialData.dimensionWall + " " + "м2");
+        Console.WriteLine("                                                          ");
+
+        return dimensionWall;
+    }
+}
+
+class Calculation
+{
+    public static double priceWork = 5.0;
+    public static double priceMaterial = 7.0;
+    public static double costMatWork;
+
+    public static double CostRoom()
+    {
+        Console.WriteLine("А теперь мы рассчитаем стоимость ремонта вашей комнаты");
+
+        costMatWork = InitialData.dimensionWall * (priceWork + priceMaterial);
+        Console.WriteLine("Стоимость работ и материалов для окраски вашей стены составит: " + Calculation.costMatWork + " " + "бел.руб");
+        Console.WriteLine("                                                          ");
+
+        return costMatWork;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Greeting.Hello();
+        InitialData.AreaWall();
+        Calculation.CostRoom();
+        Greeting.Goodbye();
+
     }
 }
