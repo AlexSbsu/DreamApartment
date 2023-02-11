@@ -6,33 +6,30 @@ using System.Threading.Tasks;
 
 namespace DreamDepartment
 {
-    static class Doors
-    {
-        public struct door_struct
+    public static class InitialData
+    { 
+        static int AmountDoors;
+        static double WidthDoors;
+        static double HeightDoors;
+        public static double dimensionDoor;
+        
+        public static double AreaDoors()
         {
-            public string name;
-            public double cost;
-            public door_struct(string namee, double costt)
-            {
-                name = namee;
-                cost = costt;
-            }
-        }
+            Console.WriteLine("Введите количество дверей: ");
+            AmountDoors = Convert.ToInt32(Console.ReadLine());
 
-        static public door_struct[] door_array =
-        {
-            new door_struct("name2",1),
-            new door_struct("name1",2)
-        };
+            Console.WriteLine("Введите ширину дверей в метрах: ");
+            WidthDoors = Convert.ToDouble(Console.ReadLine());
 
-        static public void ListDoorsTypes()
-        {
-            for (int i=0; i<2; i++)
-            {
-                Console.WriteLine( "index" + "Type" + "Cost");
-                Console.WriteLine( i + door_array[i].name + door_array[i].cost);
-            }                                   
+            Console.WriteLine("Введите высоту дверей в метрах: ");
+            HeightDoors = Convert.ToDouble(Console.ReadLine());
+
+            dimensionDoor = AmountDoors * WidthDoors * HeightDoors;
+            Console.WriteLine("Площадь Ваших дверей в м2: " + InitialData.dimensionDoor + " " + "м2");
+            Console.WriteLine("                                                           ");
+
+            return dimensionDoor;
         }
     }
-}
 
+}
