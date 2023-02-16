@@ -1,6 +1,9 @@
 ﻿using System;
 class Greeting
 {
+     /// <summary>
+     /// /Test
+     /// </summary>
     public static void Hello()
     {
         Console.WriteLine("Вас приветствует программа по расчету ремонта квартиры");
