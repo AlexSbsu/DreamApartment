@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrey\\Documents\\DreamApartment\\DreamDepartment.csproj": {}
+    "D:\\C#_Project\\2023_BSU_Study\\DreamDepartment\\DreamDepartment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrey\\Documents\\DreamApartment\\DreamDepartment.csproj": {
+    "D:\\C#_Project\\2023_BSU_Study\\DreamDepartment\\DreamDepartment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrey\\Documents\\DreamApartment\\DreamDepartment.csproj",
+        "projectUniqueName": "D:\\C#_Project\\2023_BSU_Study\\DreamDepartment\\DreamDepartment.csproj",
         "projectName": "DreamDepartment",
-        "projectPath": "C:\\Users\\Andrey\\Documents\\DreamApartment\\DreamDepartment.csproj",
-        "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrey\\Documents\\DreamApartment\\obj\\",
+        "projectPath": "D:\\C#_Project\\2023_BSU_Study\\DreamDepartment\\DreamDepartment.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "D:\\C#_Project\\2023_BSU_Study\\DreamDepartment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
