@@ -132,9 +132,6 @@ namespace DreamDepartment
             {
 
             }
-
-
-
             public void Show(Decorations[] arr)
             {
                 foreach (Decorations i in arr)
@@ -146,11 +143,7 @@ namespace DreamDepartment
 
                 }
             }
-
-
-
         }
-
 
         class Program
         {
@@ -174,12 +167,8 @@ namespace DreamDepartment
                 typeDec.Show(decorationsArray);
 
                 CalculationWall.CostRoom(decorationsArray);
-                // Greeting.Goodbye();
-
 
             }
         }
-
-
     }
 }
